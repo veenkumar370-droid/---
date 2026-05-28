@@ -1,0 +1,14 @@
+{
+  "name": "Atul Music Bot",
+  "description": "Music Bot for Telegram",
+  "keywords": ["telegram", "music", "bot"],
+  "env": {
+    "API_ID": { "required": true },
+    "API_HASH": { "required": true },
+    "BOT_TOKEN": { "required": true },
+    "SESSION_STRING": { "required": true }
+  },
+  "formation": {
+    "worker": { "quantity": 1, "size": "basic" }
+  }
+}
